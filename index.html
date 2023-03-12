@@ -112,14 +112,10 @@
                     <div class="home__data">
                         <h1 class="home__title">Hé, je suis Yasser</h1>
                         <h3 class="home__subtitle">Développeur Full Stack</h3>
-                        <p class="home__description">Développeur full stack, avec plus de 4 ans d’expérience. Mordu
-                            d’informatique,
-                            j’ai appris à coder dès mon plus jeune âge dans divers langages informatiques et ai créé des
-                            projets personnels.
-                            Polyvalent, je maîtrise les différentes étapes techniques de la création d’un site ou d’une
-                            application web;
-                            de la compréhension des besoins utilisateurs, au développement frontend et backend en
-                            passant par la maintenance.</p>
+                        <p class="home__description">Ce portfolio a pour but de présenter 
+                            les différents projets sur lesquels
+                             j'ai travaillé ces dernières années. Vous
+                             pouvez également visualiser mon CV et le télécharger.</p>
                         <a href="#contact" class="button button--flex">
                             Contactez Moi <i class="uil uil-message button__icon"></i>
                         </a>
@@ -142,13 +138,17 @@
             <span class="section__subtitle">My introdution</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <img src="assets/img/about.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">je maîtrise les différentes étapes techniques de la création d’un site
-                        ou d’une application web;
-                        de la compréhension des besoins utilisateurs, au développement frontend et backend en passant
-                        par la maintenance.</p>
+                    <p class="about__description">Développeur full stack, avec plus de 4 ans d’expérience. Mordu
+                        d’informatique,
+                        j’ai appris à coder dès mon plus jeune âge dans divers langages informatiques et ai créé des
+                        projets personnels.
+                        Polyvalent, je maîtrise les différentes étapes techniques de la création d’un site ou d’une
+                        application web;
+                        de la compréhension des besoins utilisateurs, au développement frontend et backend en
+                        passant par la maintenance.</p>
 
                     <div class="about__info">
                         <div>
@@ -845,34 +845,34 @@
 
                         <div>
                             <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">22 chemin des buttes, Valenton 94460, France</span>
+                            <span class="contact__subtitle">Paris, France</span>
                         </div>
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form id="form" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="" class="contact__label">Nom</label>
+                            <input type="text" id="name" class="contact__input" required>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" id="email" class="contact__input" required>
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="" class="contact__label">Sujet</label>
+                        <input type="text" id="sujet" class="contact__input" required>
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea cols="0" rows="7" id="message" class="contact__input" required></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send Message
+                        <a class="button button--flex" id="btn">
+                            Envoyer
                             <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
@@ -928,6 +928,12 @@
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== SMTPJS ====================-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--==================== SWEET ALERT ====================-->
+    <script src ="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
