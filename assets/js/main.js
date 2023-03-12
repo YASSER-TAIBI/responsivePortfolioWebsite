@@ -201,32 +201,43 @@ btn.addEventListener('click', function (e) {
     const body = 'name: ' + name + '<br/> email: ' + email + '<br/> sujet: ' + sujet +
         '<br/> message: ' + message;
 
-        Email.send({
-            SecureToken : "3f7b6ae6-144b-46fb-82d4-d2b1bc4868be",
-            To : 'yazzer.taibi@gmail.com',
-            From : 'yasser.taibi.19@gmail.com',
-            Subject : sujet,
-            Body : body
-        }).then(
+    Email.send({
+        SecureToken: "3f7b6ae6-144b-46fb-82d4-d2b1bc4868be",
+        To: 'yazzer.taibi@gmail.com',
+        From: 'yasser.taibi.19@gmail.com',
+        Subject: sujet,
+        Body: body
+    }).then(
 
-            // Création d'une alerte d'animation
-            swal({
-                title: "Message envoyé",
-                text: "Nous vous informons que l'envoi de votre message a été annulé avec succès.",
-                icon: "success",
-                buttons: "Fermer",
-              })
-        );
+        // Création d'une alerte d'animation
+        swal({
+            title: "Message envoyé",
+            text: "Nous vous informons que l'envoi de votre message a été annulé avec succès.",
+            icon: "success",
+            buttons: "Fermer",
+        })
+    );
 
-   // Parcours de tous les champs du formulaire
-   for (let i = 0; i < form.elements.length; i++) {
-    const field = form.elements[i];
+    // Parcours de tous les champs du formulaire
+    for (let i = 0; i < form.elements.length; i++) {
+        const field = form.elements[i];
 
-    // Vérification que le champ est un input ou un textarea
-    if (field.tagName.toLowerCase() === 'input' || field.tagName.toLowerCase() === 'textarea') {
-    // Réinitialisation de la valeur du champ
-    field.value = '';
+        // Vérification que le champ est un input ou un textarea
+        if (field.tagName.toLowerCase() === 'input' || field.tagName.toLowerCase() === 'textarea') {
+            // Réinitialisation de la valeur du champ
+            field.value = '';
+        }
     }
-}
-
 })
+
+/*==================== TYPED JS ====================*/
+var typed = new Typed(".type", {
+    strings: ["Front-end.", "Back-end.", "Full Stack."],
+    smartBackspace: true,
+    startDelay: 1000,
+    typeSpeed: 130,
+    backDelay: 1000,
+    backSpeed: 60,
+    loop: true,
+});
+
