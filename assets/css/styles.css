@@ -524,31 +524,75 @@ transition: .4s;
 }
 
 .skills__css{
-  width: 60%;
-}
-
-.skills__js{
-  width: 40%;
-}
-
-.skills__react{
   width: 70%;
 }
 
-.skills__php{
-  width: 30%;
+.skills__js{
+  width: 60%;
 }
 
-.skills__node{
+.skills__angular{
   width: 80%;
 }
 
-.skills__firebase{
+.skills__java{
+  width: 60%;
+}
+
+.skills__node{
+  width: 70%;
+}
+
+.skills__mulesoft{
   width: 50%;
 }
 
-.skills__python{
+.skills__mysql{
+  width: 80%;
+}
+
+.skills__mongodb{
+  width: 50%;
+}
+
+.skills__git{
   width: 60%;
+}
+
+.skills__github{
+  width: 80%;
+}
+
+.skills__jira{
+  width: 80%;
+}
+
+.skills__jenkins{
+  width: 50%;
+}
+
+.skills__postman{
+  width: 80%;
+}
+
+.skills__wordpress{
+  width: 70%;
+}
+
+.skills__photoshop{
+  width: 80%;
+}
+
+.skills__illustrator{
+  width: 60%;
+}
+
+.skills__canva{
+  width: 90%;
+}
+
+.skills__office{
+  width: 70%;
 }
 
 .skills__close .skills__list{
@@ -1188,7 +1232,7 @@ transition: .4s;
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
   .services__icon{
@@ -1259,7 +1303,8 @@ transition: .4s;
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 238px);
+    justify-content: center;
   }
 
   .portfolio__content{
