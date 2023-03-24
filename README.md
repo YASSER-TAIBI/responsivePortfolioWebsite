@@ -1,10 +1,10 @@
-# Responsive Portfolio Website Yasser
+# Portefeuille responsive --Yasser Taibi--
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a light and dark mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Site web personnel responsive utilisant HTML CSS & JavaScript pour présenter un portfolio
+- Défilement fluide dans chaque section.
+- Comprend un mode clair et un mode sombre.
+- Développé d'abord avec la méthodologie Mobile First, puis adapté pour le bureau.
+- Compatible avec tous les appareils mobiles et disposant d'une interface utilisateur belle et agréable.
 
 
-![preview img](/preview.png)
+
