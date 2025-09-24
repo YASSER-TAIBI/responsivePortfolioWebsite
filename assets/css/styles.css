@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 179;
+  --hue-color: 187;
   /*Purple 185 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
@@ -308,7 +308,7 @@ img {
 }
 
 .home__blob-img {
-  width: 177px;
+  width: 200px;
 }
 
 .home__data {
@@ -539,12 +539,12 @@ transition: .4s;
   width: 60%;
 }
 
-.skills__node{
+.skills__expressjs{
   width: 70%;
 }
 
-.skills__mulesoft{
-  width: 50%;
+.skills__nodejs{
+  width: 70%;
 }
 
 .skills__mysql{
@@ -552,15 +552,19 @@ transition: .4s;
 }
 
 .skills__mongodb{
-  width: 50%;
-}
-
-.skills__git{
   width: 60%;
 }
 
-.skills__github{
+.skills__git{
   width: 80%;
+}
+
+.skills__github{
+  width: 60%;
+}
+
+.skills__gitlab{
+  width: 60%;
 }
 
 .skills__jira{

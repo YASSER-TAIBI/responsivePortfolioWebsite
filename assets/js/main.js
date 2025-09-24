@@ -232,7 +232,8 @@ btn.addEventListener('click', function (e) {
 
 /*==================== TYPED JS ====================*/
 var typed = new Typed(".type", {
-    strings: ["Front-end.", "Back-end.", "Full-Stack."],
+    // strings: ["Front-end.", "Back-end.", "Full-Stack."],
+    strings: ["Full-Stack."],
     smartBackspace: true,
     startDelay: 1000,
     typeSpeed: 130,
